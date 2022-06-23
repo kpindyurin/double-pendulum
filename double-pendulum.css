@@ -34,6 +34,10 @@
 
 .thread {
 	position: absolute;
+	-webkit-transition: -webkit-transform 20ms linear;
+	-moz-transition: -moz-transform 20ms linear;
+	-o-transition: -o-transform 20ms linear;
+	-ms-transition: -ms-transform 20ms linear;
 	transition: transform 20ms linear;
 	left: 14px;
 	top: 15px;
